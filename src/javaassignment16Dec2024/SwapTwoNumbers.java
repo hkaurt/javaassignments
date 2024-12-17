@@ -46,7 +46,7 @@ public class SwapTwoNumbers {
 	public static void main(String[] args) {
 
 		new SwapTwoNumbers(10, 20).swapUsingThirdVar();  // creating object of class using its parameterised constructor and initiating var a, b 
-		new SwapTwoNumbers(10, 20).swapWithoutThirdVar();
+		new SwapTwoNumbers(10, 20).swapWithoutThirdVar(); // creating another object of class using its parameterised constructor and initiating var a, b again to set it back to initial values
 
 	}
 
