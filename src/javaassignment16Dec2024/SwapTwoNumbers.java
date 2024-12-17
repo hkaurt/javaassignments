@@ -34,8 +34,7 @@ public class SwapTwoNumbers {
 		/*
 		a = a * b; // a=20*10=200
 		b = a / b; // b=200/20=10
-		a = a / b; // a=200/10=20
-		*/
+		a = a / b; // a=200/10=20 */
 
 		System.out.println("value of a after swapping without using third var: " + a);  //a=20
 		System.out.println("value of b after swapping without using third var: " + b);  //b=10
