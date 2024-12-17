@@ -38,7 +38,6 @@ public class SwapTwoNumbers {
 
 		System.out.println("value of a after swapping without using third var: " + a);  //a=20
 		System.out.println("value of b after swapping without using third var: " + b);  //b=10
-		
 	}
 
 	public static void main(String[] args) {
