@@ -33,8 +33,8 @@ public class SwapTwoNumbers {
 		b = a - b; // b=30-20= 10
 		a = a - b; // c=30-10= 20
 
-		// using *
-		/*
+		// using */
+	     /*
 		a = a * b; // a=20*10=200
 		b = a / b; // b=200/20=10
 		a = a / b; // a=200/10=20 */
