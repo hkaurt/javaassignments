@@ -14,7 +14,7 @@ public class PrintThirdWordOfString {
 			System.out.println(s[2]);
 		else
 			System.out.println("String is less than 3 words");
-	}
 	
+	}
 	
 }
