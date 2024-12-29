@@ -6,9 +6,8 @@ import java.util.Collections;
 public class SecondLargestNumInArrayList {
 
 	/*
-	 * edge cases: 
-	 * 1. if ArrayList size<2, "no Largest Element" 
-	 * 2. else find second largest number
+	 * edge cases: 1. if ArrayList size<2, "no Largest Element" 2. else find second
+	 * largest number
 	 */
 
 	ArrayList<Integer> num = new ArrayList<>();
@@ -20,7 +19,7 @@ public class SecondLargestNumInArrayList {
 		num.add(0);
 		num.add(101);
 		num.add(100);
-		
+
 		System.out.println("ArrayList in insertion order: " + num);
 
 		if (num.size() < 2) {
@@ -43,7 +42,7 @@ public class SecondLargestNumInArrayList {
 
 			int secondLargest = num.get(0);
 			for (int i = 0; i < num.size(); i++) {
-				if (largest > num.get(i) && num.get(i) > largest) {
+				if (largest > num.get(i) && num.get(i) > secondLargest) {
 					secondLargest = num.get(i);
 				}
 			}
