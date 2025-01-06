@@ -2,6 +2,7 @@ package javaassignment28dec2024;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class SecondLargestNumInArrayList {
 
@@ -14,6 +15,8 @@ public class SecondLargestNumInArrayList {
 
 	public void findSecondLargestNum() {
 
+		// CRUD
+		// create - add()
 		num.add(13);
 		num.add(56);
 		num.add(0);
@@ -28,6 +31,7 @@ public class SecondLargestNumInArrayList {
 
 		} else {
 
+			// read- get()
 			int largest = num.get(0);
 			for (int i = 0; i < num.size(); i++) {
 
@@ -59,6 +63,20 @@ public class SecondLargestNumInArrayList {
 		System.out.println("LargestNum= " + num.get(0));
 		System.out.println("SecondLargestNum= " + num.get(1));
 
+		// update - set(index, ele);
+		num.set(2, 3);
+
+		// delete - remove(index)
+		num.remove(num.size() - 1);
+
+		System.out.println(num);
+		
+		num.isEmpty();
+		
+		List<Integer> list=num.reversed();  // becz this will return list of reverse ele of type integer 
+		
+		System.out.println(list);
+		
 	}
 
 	public static void main(String[] args) {
